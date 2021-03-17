@@ -1,0 +1,239 @@
+.skin-blue .main-header .logo {
+    background-color: #e1e1e1;
+    color: #000;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.skin-blue .main-header .navbar {
+   background-color: rgba(255,255,255,0.8);
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #333;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: rgba(0,0,0,0.1);
+    color: #333;
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #333;
+    font-weight: bold;
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: rgba(255,255,255,0.6);
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p {
+    z-index: 5;
+ 	color: rgba(0,0,0,1);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.skin-blue .main-header .navbar .nav>li>a:hover, .skin-blue .main-header .navbar .nav>li>a:active, .skin-blue .main-header .navbar .nav>li>a:focus, .skin-blue .main-header .navbar .nav .open>a, .skin-blue .main-header .navbar .nav .open>a:hover, .skin-blue .main-header .navbar .nav .open>a:focus, .skin-blue .main-header .navbar .nav>.active>a {
+    background: rgba(0,0,0,0.1);
+   	color: #333;
+    font-weight: bold;
+}
+
+
+/*Change Scrollbar looks*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 20px;
+}
+
+.bg-navy
+{
+    background-color: #01578B !important;
+    border-color: #01578B;
+}
+
+.bg-success
+{
+    background-color: #00a65a !important;
+    border-color: #00a65a;
+}
+
+.bg-yellow
+{
+    background-color: #F9A825 !important;
+    border-color: #F9A825;
+}
+
+.bg-red
+{
+    background-color: #880E4F !important;
+    border-color: #880E4F;
+}
+
+.small-box>.small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.panel-navy>.panel-heading{
+    color: #fff;
+    background-color: #01578B !important;
+    border-color: #01578B;
+}
+
+.panel-success>.panel-heading {
+    color: #fff;
+    background-color: #00a65a !important;
+    border-color: #00a65a;
+}
+
+.panel-yellow>.panel-heading {
+    color: #fff;
+    background-color: #F9A825 !important;
+    border-color: #F9A825;
+}
+
+.panel-red>.panel-heading {
+    color: #fff;
+    background-color: #880E4F !important;
+    border-color: #880E4F;
+}
+
+.form-control
+{
+    border-radius: 4px;
+}
+
+.red{
+    color: red;
+}
+
+.text-align{
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary{
+    background-color: #337AB7;
+}
+
+.w-5{
+    width: 5%;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    border-radius: 2px;
+}
+
+.pagination>li>a {
+    background: #fafafa;
+    color: #666;
+    border-radius: 2px;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+  .thumbnail .delete {
+  display: block;
+}
+
+  .delete {
+  padding-top: 7px; 
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.delete-radius
+{
+    border-radius: 50%;
+    width: 30px;
+    padding: 0px 0px;
+    font-size: 18px;
+    text-align: center;
+    height: 30px;
+}
+
+.delete a {
+  color: #FFF;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+  .thumbnail .delete {
+  display: block;
+}
+
+  .delete {
+  padding-top: 7px; 
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.delete-radius
+{
+    border-radius: 50%;
+    width: 30px;
+    padding: 0px 0px;
+    font-size: 18px;
+    text-align: center;
+    height: 30px;
+}
+
+.delete a {
+  color: #FFF;
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color: #CCC;
+    background: #1a2226;
+}
+
+@media (min-width: 1200px)
+{
+.col-lg-6 {
+    width: 100%;
+}
+
+@media (max-width: 1199.98px)
+{
+    .box-body{
+        padding: 0px !important;
+    }
+}
